@@ -24,7 +24,7 @@ date: '2026-02-28'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the ACM Conference on Human Factors in Computing Systems*
+publication: In *Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI'26)*
 publication_short: In *CHI*
 
 abstract: Playtesting is widely used in the game industry to identify design flaws and evaluate player experience, yet little research explores how to effectively visualize and analyze playtesting data. This challenge is particularly pronounced in motion-based VR games, which involve physical movements and interactions tracked through multimodal inputs, resulting in complex multidimensional data. To better understand the challenges designers face, we conducted a formative study with 30 practitioners in the VR domain to characterize playtesting workflows and associated tasks. Based on these findings, we present HieraVisVR, a hierarchical visual analytics framework that incorporates body-motion-related data to help designers identify player behaviors and critical game moments, simplifying their workflow. We demonstrate the applicability of HieraVisVR in three different applications and evaluate our system with playtesting experts through an analysis of motion-based game data. The study results suggest that our system enhances playtesters' understanding of the gameplay and improves their data analysis workflow. .
@@ -34,7 +34,8 @@ summary: A visual analytics tool to streamline the VR game playtesting process..
 
 tags:
   - Visual analytic 
-  - Playtesting workflow
+  - VR Playtesting workflow
+  - Clustering
 
 # Display this page in the Featured widget?
 #featured: true
@@ -45,6 +46,7 @@ hugoblox:
     doi: 10.5555/123456
 
 # Custom links
+
 links:
   - type: pdf
     url: "https://yqz530.github.io/paper/vrtest.pdf"
@@ -59,10 +61,11 @@ links:
   - type: video
     url: https://youtu.be/mFpQj-F7muU
 
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](teaser.png)'
+  caption: 'Playtesting Approach'
   focal_point: ''
   preview_only: false
 
@@ -82,10 +85,16 @@ image:
 slides: ""
 ---
 
-<!-- > [!NOTE]
-> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
+<div class="grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
+  <div class="font-bold text-2xl">Acknowledgement</div>
+  <div>We are grateful to the anonymous reviewers for their constructive comments. This project was supported by the National Science Foundation (award numbers: 2430673, 2418236, and 1942531). LapFai Yu is supported by the GMU’s IDIA P3 Faculty Fellowship on this project.</div>
+</div>
+---
+<!-- 
 > [!NOTE]
+> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software. -->
+
+<!-- > [!NOTE]
 > Create your slides in Markdown - click the _Slides_ button to check out the example. -->
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+<!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

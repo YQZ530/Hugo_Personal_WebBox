@@ -1,4 +1,23 @@
-# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
+Command pnpm dev
+Go to content folder to create new box
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv/start/?utm_source=github&utm_medium=readme)
 
