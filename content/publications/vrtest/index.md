@@ -37,6 +37,11 @@ tags:
   - VR Playtesting workflow
   - Clustering
 
+
+header:
+  navbar:
+    enable: false
+
 pager: false
 # Display this page in the Featured widget?
 #featured: true
