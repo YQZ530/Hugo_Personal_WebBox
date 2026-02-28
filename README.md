@@ -1,12 +1,13 @@
 Command pnpm dev
 Go to content folder to create new box
 
+preview page in local host 
+1. in terminal, cd to current directory
+2.pnpm dev
 
 
-
-
-
-
+building webpage before upload
+hugo --minify 
 
 
 
