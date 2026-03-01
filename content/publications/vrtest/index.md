@@ -128,3 +128,22 @@ slides: ""
 > Create your slides in Markdown - click the _Slides_ button to check out the example. -->
 
 <!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
+
+<style>
+  /* Optional: This hides the author box entirely if you'd rather have no bio section */
+  /* .flex.pt-12.pb-4 { display: none !important; } */
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Finds the link to your name in the author bio section at the bottom
+    const bioLinks = document.querySelectorAll('a[href*="/authors/"], a[href*="localhost:1313"]');
+    
+    bioLinks.forEach(link => {
+      // Check if it's the link to your profile
+      if (link.textContent.trim().includes('Yongqi Zhang')) {
+        link.href = 'https://yqz530.github.io/';
+      }
+    });
+  });
+</script>
