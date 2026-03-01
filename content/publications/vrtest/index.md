@@ -100,7 +100,6 @@ slides: ""
 <div class="video-container" style="margin-bottom: 2rem;">
   <iframe width="100%" height="300" src="https://www.youtube.com/embed/mFpQj-F7muU" title="HieraVisVR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
----
 
 
 <style>
@@ -119,15 +118,6 @@ slides: ""
     max-width: 100rem !important; 
   }
 </style>
----
-<!-- 
-> [!NOTE]
-> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software. -->
-
-<!-- > [!NOTE]
-> Create your slides in Markdown - click the _Slides_ button to check out the example. -->
-
-<!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
 
 <style>
   /* Optional: This hides the author box entirely if you'd rather have no bio section */
