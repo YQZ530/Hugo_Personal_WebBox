@@ -21,13 +21,23 @@ date: '2026-02-28'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
-
+#publication_types: ['paper-conference']
+publication_types: ["article-journal"]
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI'26)*
 publication_short: In *CHI*
 
-abstract: Playtesting is widely used in the game industry to identify design flaws and evaluate player experience, yet little research explores how to effectively visualize and analyze playtesting data. This challenge is particularly pronounced in motion-based VR games, which involve physical movements and interactions tracked through multimodal inputs, resulting in complex multidimensional data. To better understand the challenges designers face, we conducted a formative study with 30 practitioners in the VR domain to characterize playtesting workflows and associated tasks. Based on these findings, we present HieraVisVR, a hierarchical visual analytics framework that incorporates body-motion-related data to help designers identify player behaviors and critical game moments, simplifying their workflow. We demonstrate the applicability of HieraVisVR in three different applications and evaluate our system with playtesting experts through an analysis of motion-based game data. The study results suggest that our system enhances playtesters' understanding of the gameplay and improves their data analysis workflow. .
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+  filename: "feature.png"
+  caption: ""
+  focal_point: "Smart"
+  preview_only: false
+
+abstract: Playtesting is widely used in the game industry to identify design flaws and evaluate player experience, yet little research explores how to effectively visualize and analyze playtesting data. This challenge is particularly pronounced in motion-based VR games, which involve physical movements and interactions tracked through multimodal inputs, resulting in complex multidimensional data. To better understand the challenges designers face, we conducted a formative study with 30 practitioners in the VR domain to characterize playtesting workflows and associated tasks. Based on these findings, we present HieraVisVR, a hierarchical visual analytics framework that incorporates body-motion-related data to help designers identify player behaviors and critical game moments, simplifying their workflow. We demonstrate the applicability of HieraVisVR in three different applications and evaluate our system with playtesting experts through an analysis of motion-based game data. The study results suggest that our system enhances playtesters' understanding of the gameplay and improves their data analysis workflow.
+
 
 # Summary. An optional shortened abstract.
 summary: A visual analytics tool to streamline the VR game playtesting process..
@@ -68,12 +78,7 @@ links:
     url: https://youtu.be/mFpQj-F7muU
 
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Playtesting Approach'
-  focal_point: ''
-  preview_only: false
+
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -90,11 +95,30 @@ image:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+<!-- {{< youtube mFpQj-F7muU >}} -->
 
-<div class="grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
-  <div class="font-bold text-2xl">Acknowledgement</div>
-  <div>We are grateful to the anonymous reviewers for their constructive comments. This project was supported by the National Science Foundation (award numbers: 2430673, 2418236, and 1942531). LapFai Yu is supported by the GMU’s IDIA P3 Faculty Fellowship on this project.</div>
+<div class="video-container" style="margin-bottom: 2rem;">
+  <iframe width="100%" height="300" src="https://www.youtube.com/embed/mFpQj-F7muU" title="HieraVisVR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+---
+
+
+<style>
+  /* Expands the body text width */
+  .prose {
+    max-width: 110% !important;
+  }
+
+  /* Ensures the container holding the title and metadata also expands */
+  .max-w-prose {
+    max-width: 120% !important;
+  }
+  
+  /* Optional: Adjusts the main wrapper to prevent it from getting too wide on ultrawide monitors */
+  .max-w-6xl {
+    max-width: 100rem !important; 
+  }
+</style>
 ---
 <!-- 
 > [!NOTE]

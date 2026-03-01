@@ -3,6 +3,7 @@ Go to content folder to create new box
 
 preview page in local host 
 1. in terminal, cd to current directory
+cd "C:\Users\z5308\Desktop\GitHub_Projects\Hugo_Personal_WebBox"
 2.pnpm dev
 
 
